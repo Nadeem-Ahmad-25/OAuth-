@@ -47,7 +47,7 @@ export const authOptions = {
                          }
                          // User is authenticated
                          return {
-                             id: admin._id,
+                             id: admin._id, 
                              email: admin.username,
                          }
                      }
